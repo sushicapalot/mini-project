@@ -1,0 +1,70 @@
+.flex{
+    display: flex;
+}
+
+
+
+p{
+    margin: 0;
+    text-transform: capitalize;
+}
+
+div{
+    border: 5px solid black;
+    display: inline-block;
+    font-size: 40px;
+}
+
+
+
+
+#green{
+    text-align: right;
+}
+
+
+div.blue-position{
+    border: none;
+}
+
+div.yellow-position{
+    border: none;
+}
+
+.blue-position{
+    position: absolute;
+    bottom: 0;
+}
+
+.yellow-position{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+.red{
+    
+    background-color: red;
+    height: 450px;
+    width: 930px;
+}
+
+.green{
+    background-color: green;
+    height: 450px;
+    width: 930px;
+
+}
+
+.blue{
+    background-color: cyan;
+    width: 930px;
+    height: 430px;
+}
+
+.yellow{
+    background-color: yellow;
+    width: 930px;
+    height: 430px;
+
+}
